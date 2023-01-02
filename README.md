@@ -16,11 +16,9 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
 
-<h2>Setup</h2>
+<h2>Setup And Installation</h2>
 
 Copy `env` to `.env` with this command `cp env .env` and tailor for your app, specifically the baseURL and any database settings.
-
-<h2>Installation</h2>
 
 * `composer install` or if you're on Linux use `composer install --ignore-platform-reqs` instead.
 * `composer update` or if you're on Linux use `composer update --ignore-platform-reqs` instead.
