@@ -48,7 +48,7 @@
 
           <div class="flex items-center justify-center space-x-2">
             <span class="h-px w-16 bg-gray-200"></span>
-            <span class="text-gray-300 font-normal">Billy Franscois</span>
+            <span class="text-gray-300 font-normal">Manage Student Data</span>
             <span class="h-px w-16 bg-gray-200"></span>
           </div>
           
