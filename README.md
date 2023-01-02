@@ -1,20 +1,32 @@
 <h1 align="center">Student Final Project Management System</h1>
 
-Student final project Management System, created with [Codeigniter 4](http://codeigniter.com), [Tailwindcss](https://tailwindcss.com) and [Laravel Mix](https://laravel-mix.com).
+Student final project Management System, created with [Codeigniter 4](https://codeigniter.com), [Tailwindcss](https://tailwindcss.com) and [Laravel Mix](https://laravel-mix.com).
+
+<h2>Server Requirements</h2>
+
+PHP version 7.4 or higher is required, with the following extensions installed:
+
+- [intl](http://php.net/manual/en/intl.requirements.php)
+- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+Additionally, make sure that the following extensions are enabled in your PHP:
+
+- json (enabled by default - don't turn it off)
+- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
+- xml (enabled by default - don't turn it off)
 
 <h2>Setup</h2>
 
-> Windows
-- `composer install` to install the CodeIgniter library.
-- `composer update` and keep project with the latest version.
-- `npm install` to install the dependencies.
-- `npx mix` or `npx mix watch` to compile the Tailwindcss & Laravel Mix.
-- `php spark serve` to enter the Development server.
+Copy `env` to `.env` with this command `cp env .env` and tailor for your app, specifically the baseURL and any database settings.
 
-> Linux 
+<h2>Installation</h2>
 
-- `composer install --ignore-platform-reqs`
-- `composer update --ignore-platform-reqs`
+* `composer install` or if you're on Linux use `composer install --ignore-platform-reqs` instead.
+* `composer update` or if you're on Linux use `composer update --ignore-platform-reqs` instead.
+* `npm install` to install the dependencies.
+* `npx mix` or `npx mix watch` to compile the Tailwindcss with Laravel Mix.
+* `php spark serve --port 1908` to enter the Development server.
 
 <!--
 # CodeIgniter 4 Application Starter
