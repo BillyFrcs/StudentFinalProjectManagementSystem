@@ -20,11 +20,11 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 Copy `env` to `.env` with this command `cp env .env` and tailor for your app, specifically the baseURL and any database settings.
 
-* `composer install` or if you're on Linux use `composer install --ignore-platform-reqs` instead.
-* `composer update` or if you're on Linux use `composer update --ignore-platform-reqs` instead.
+* `composer install` or `composer install --ignore-platform-reqs` to install the CodeIgniter library.
+* `composer update` or `composer update --ignore-platform-reqs` and keep project with the latest version.
 * `npm install` to install the dependencies.
 * `npx mix` or `npx mix watch` to compile the Tailwindcss with Laravel Mix.
-* `php spark serve --port 1908` to enter the Development server.
+* `php spark serve --port 1908` to enter the Development server with specified port by ourself.
 
 <!--
 # CodeIgniter 4 Application Starter
