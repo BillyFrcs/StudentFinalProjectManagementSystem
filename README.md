@@ -1,5 +1,8 @@
 <h1 align="center">Student Final Project Management System</h1>
 
+![Login](https://github.com/BillyFrcs/StudentFinalProjectManagementSystem/blob/master/public/img/Overview/Login.png)
+![Dashboard](https://github.com/BillyFrcs/StudentFinalProjectManagementSystem/blob/master/public/img/Overview/Dashboard.png)
+
 Student final project Management System, created with [Codeigniter 4](https://codeigniter.com), [Tailwindcss](https://tailwindcss.com) and [Laravel Mix](https://laravel-mix.com).
 
 <h2>Server Requirements</h2>
