@@ -7,7 +7,7 @@ Student final project Management System, created with [Codeigniter 4](https://co
 
 <h2>Server Requirements</h2>
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+PHP version 7.4 **or** higher is required, with the following extensions installed:
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
@@ -21,12 +21,12 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 <h2>Setup And Installation</h2>
 
-Copy `env` to `.env` with this command `cp env .env` and tailor for your app, specifically the baseURL and any database settings.
+Copy `env` to `.env` with this command `cp env .env` and tailor for your app, specifically the baseURL and any database settings **or** you can use the [default settings](https://github.com/BillyFrcs/StudentFinalProjectManagementSystem/blob/master/env) for this project that already configured.
 
-* `composer install` or `composer install --ignore-platform-reqs` to install the CodeIgniter library.
-* `composer update` or `composer update --ignore-platform-reqs` and keep project with the latest version.
+* `composer install` **or** `composer install --ignore-platform-reqs` to install the CodeIgniter library.
+* `composer update` **or** `composer update --ignore-platform-reqs` and keep project with the latest version.
 * `npm install` to install the dependencies.
-* `npx mix` or `npx mix watch` to compile the Tailwindcss with Laravel Mix.
+* `npx mix` **or** `npx mix watch` to compile the Tailwindcss with Laravel Mix.
 * `php spark serve --port 1908` to enter the Development server with specified port by ourself.
 
 <!--
