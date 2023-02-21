@@ -3,7 +3,7 @@
 ![Login](https://github.com/BillyFrcs/StudentFinalProjectManagementSystem/blob/master/public/img/Overview/Login.png)
 ![Dashboard](https://github.com/BillyFrcs/StudentFinalProjectManagementSystem/blob/master/public/img/Overview/Dashboard.png)
 
-Student final project Management System, created with [Codeigniter 4](https://codeigniter.com), [Tailwindcss](https://tailwindcss.com) and [Laravel Mix](https://laravel-mix.com).
+Student final project Management System web application project, created with [Codeigniter 4](https://codeigniter.com), [Tailwindcss](https://tailwindcss.com), [Laravel Mix](https://laravel-mix.com) and MySQL Database.
 
 <h2>Server Requirements</h2>
 
